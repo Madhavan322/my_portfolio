@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madhavan S | AI Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&family=Anton&family=Bebas+Neue&family=Teko:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- EmailJS -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="bat-container">
+            <div class="bat-wing left"></div>
+            <div class="bat-body">
+                <div class="bat-logo">
+                    <div class="bat-ears">
+                        <div class="ear left-ear"></div>
+                        <div class="ear right-ear"></div>
+                    </div>
+                    <div class="bat-head"></div>
+                    <div class="bat-wings">
+                        <div class="wing wing-left"></div>
+                        <div class="wing wing-right"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="bat-wing right"></div>
+        </div>
+        <div class="loading-text">
+            <span class="char">I</span>
+            <span class="char">N</span>
+            <span class="char">I</span>
+            <span class="char">T</span>
+            <span class="char">I</span>
+            <span class="char">A</span>
+            <span class="char">L</span>
+            <span class="char">I</span>
+            <span class="char">Z</span>
+            <span class="char">I</span>
+            <span class="char">N</span>
+            <span class="char">G</span>
+            <span class="char">.</span>
+            <span class="char">.</span>
+            <span class="char">.</span>
+        </div>
+        <div class="loading-subtitle">AI ENGINEER</div>
+    </div>
+
+    <!-- Batman Signal -->
+    <div class="bat-signal-container">
+        <div class="bat-signal-beam">
+            <div class="signal-light"></div>
+            <div class="signal-cloud"></div>
+        </div>
+        <div class="bat-symbol-projection"></div>
+    </div>
+
+    <!-- Main Navigation -->
+    <nav class="bat-nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="bat-emblem-small"></div>
+                <div class="logo-text">
+                    <span class="logo-main">MADHAVAN S</span>
+                    <span class="logo-sub">B.Tech - AI & Data Science</span>
+                </div>
+            </div>
+            
+            <div class="nav-menu">
+                <div class="menu-item" data-target="home">
+                    <div class="menu-icon">⌂</div>
+                    <div class="menu-label">HOME</div>
+                    <div class="menu-line"></div>
+                </div>
+                <div class="menu-item" data-target="about">
+                    <div class="menu-icon">⏣</div>
+                    <div class="menu-label">PROFILE</div>
+                    <div class="menu-line"></div>
+                </div>
+                <div class="menu-item" data-target="skills">
+                    <div class="menu-icon">⚔</div>
+                    <div class="menu-label">SKILLS</div>
+                    <div class="menu-line"></div>
+                </div>
+                <div class="menu-item" data-target="projects">
+                    <div class="menu-icon">🞛</div>
+                    <div class="menu-label">PROJECTS</div>
+                    <div class="menu-line"></div>
+                </div>
+                <div class="menu-item" data-target="certificates">
+                    <div class="menu-icon">✧</div>
+                    <div class="menu-label">CERTIFICATES</div>
+                    <div class="menu-line"></div>
+                </div>
+                <div class="menu-item" data-target="contact">
+                    <div class="menu-icon">✉</div>
+                    <div class="menu-label">CONTACT</div>
+                    <div class="menu-line"></div>
+                </div>
+            </div>
+
+            <div class="nav-controls">
+                <div class="menu-toggle" id="menuToggle">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="bat-content">
+        <!-- Section 1: Hero/Sanctum -->
+        <section id="home" class="section sanctum active">
+            <div class="gotham-bg"></div>
+            
+            <div class="section-content">
+                <div class="hero-container">
+                    <div class="hero-text">
+                        <div class="title-tag">CODE NAME</div>
+                        <h1 class="hero-title">
+                            <span class="title-line">AI</span>
+                            <span class="title-line highlight">ENGINEER</span>
+                        </h1>
+                        
+                        <div class="hero-subtitle">
+                            <div class="typewriter">
+                                <span class="type-line">MACHINE LEARNING</span>
+                                <span class="type-line">DATA SCIENTIST</span>
+                                <span class="type-line">AI DEVELOPER</span>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-quote">
+                            <div class="quote-mark">"</div>
+                            <p class="quote-text">If you want to understand the system, you must crack the system.</p>
+                            <div class="quote-author">- Madhavan S</div>
+                        </div>
+                        
+                        <div class="hero-actions">
+                            <button class="bat-btn primary" onclick="openMissionTerminal()">
+                                <span class="btn-text">AI TERMINAL</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                            <button class="bat-btn secondary" onclick="showSection('contact')">
+                                <span class="btn-text">SEND MESSAGE</span>
+                                <div class="btn-glow"></div>
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual">
+                        <div class="bat-pod">
+                            <div class="pod-frame">
+                                <div class="pod-screen">
+                                    <div class="screen-display">
+                                        <div class="data-streams">
+                                            <div class="stream"></div>
+                                            <div class="stream"></div>
+                                            <div class="stream"></div>
+                                        </div>
+                                        <div class="matrix-display">
+                                            <div class="matrix-line"></div>
+                                            <div class="matrix-line"></div>
+                                            <div class="matrix-line"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pod-avatar">
+                                    <div class="avatar-container">
+                                        <img src="certificats\WhatsApp Image 2025-08-24 at 23.32.25_9856a4d8.jpg" alt="Madhavan S" class="profile-img">
+                                        <div class="avatar-frame"></div>
+                                        <div class="avatar-glow"></div>
+                                    </div>
+                                    <div class="avatar-info">
+                                        <div class="avatar-name">MADHAVAN S</div>
+                                        <div class="avatar-title">AI&DS</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="stats-container">
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="2">0</div>
+                        <div class="stat-label">ACTIVE PROJECTS</div>
+                        <div class="stat-line"></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="8">0</div>
+                        <div class="stat-label">CERTIFICATIONS</div>
+                        <div class="stat-line"></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="3">0</div>
+                        <div class="stat-label">HACKATHONS</div>
+                        <div class="stat-line"></div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-count="100">0</div>
+                        <div class="stat-label">CODE COMMITS</div>
+                        <div class="stat-line"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Profile -->
+        <section id="about" class="section profile">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">ACCESS <span class="highlight">ID</span></h2>
+                </div>
+                
+                <div class="profile-container">
+                    <div class="profile-card">
+                        <div class="card-header">
+                            <div class="card-icon">⏣</div>
+                            <div class="card-title">ABOUT ME</div>
+                        </div>
+                        
+                        <div class="card-content">
+                            <div class="bio-text">
+                                <p class="bio-paragraph">
+                                    <span class="bio-highlight">I am a positive and motivated individual who enjoys encouraging and inspiring others to achieve their goals. My outgoing nature allows me to collaborate effectively with diverse teams and create a productive and supportive work environment.</span> </p>
+                                <div class="bio-details">
+                                    <div class="detail-item">
+                                        <div class="detail-icon">✧</div>
+                                        <div class="detail-content">
+                                            <div class="detail-label">NAME</div>
+                                            <div class="detail-value">Madhavan S</div>
+                                        </div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-icon">⌚</div>
+                                        <div class="detail-content">
+                                            <div class="detail-label">ACTIVE SINCE</div>
+                                            <div class="detail-value">2023</div>
+                                        </div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-icon">⚑</div>
+                                        <div class="detail-content">
+                                            <div class="detail-label">SPECIALIZATION</div>
+                                            <div class="detail-value">AI & Data Science</div>
+                                        </div>
+                                    </div>
+                                    <div class="detail-item">
+                                        <div class="detail-icon">⚙</div>
+                                        <div class="detail-content">
+                                            <div class="detail-label">EQUIPMENT</div>
+                                            <div class="detail-value">Java, Python, ML</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="mission-statement">
+                                    <div class="statement-title">PROFESSIONAL SUMMARY</div>
+                                    <p class="statement-text">
+                                              Aspiring AI Engineer and Frontend Developer with practical experience in Python, Java, and real-time project development. Familiar with ML and LLM concepts, and passionate about building intelligent systems through hands-on learning. 
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="profile-visual">
+                                <div class="data-cube">
+                                    <div class="cube-face front">AI</div>
+                                    <div class="cube-face back">ML</div>
+                                    <div class="cube-face right">JAVA</div>
+                                    <div class="cube-face left">PYTHON</div>
+                                    <div class="cube-face top">HTML</div>
+                                    <div class="cube-face bottom">CSS</div>
+                                </div>
+                                <div class="visual-description">
+                                    <div class="vis-icon">⚡</div>
+                                    <div class="vis-text">Core Competencies Matrix</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="card-actions">
+                            <a href="certificats\Resume Madhavan.pdf" class="bat-btn outline" download="Madhavan_S_Resume.pdf">
+                                <span class="btn-text">DOWNLOAD RESUME</span>
+                                <div class="btn-icon">↓</div>
+                            </a>
+                            <button class="bat-btn secondary" onclick="showSection('contact')">
+                                <span class="btn-text">REQUEST BRIEFING</span>
+                                <div class="btn-icon">→</div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Arsenal (Skills) -->
+        <section id="skills" class="section arsenal">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">TECH <span class="highlight">STACK</span></h2>
+                </div>
+                
+                <div class="arsenal-grid">
+                    <!-- Programming -->
+                    <div class="weapon-card">
+                        <div class="weapon-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="weapon-info">
+                            <div class="weapon-name">PYTHON</div>
+                            <div class="weapon-desc">Precision coding tools for data manipulation</div>
+                        </div>
+                        <div class="weapon-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-level="30"></div>
+                            </div>
+                            <div class="progress-text">30% MASTERY</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Machine Learning -->
+                    <div class="weapon-card">
+                        <div class="weapon-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                        </div>
+                        <div class="weapon-info">
+                            <div class="weapon-name">MACHINE LEARNING</div>
+                            <div class="weapon-desc">Deep learning models for pattern recognition</div>
+                        </div>
+                        <div class="weapon-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-level="50"></div>
+                            </div>
+                            <div class="progress-text">50% MASTERY</div>
+                        </div>
+                    </div>
+                    
+                    <!-- JAVA -->
+                    <div class="weapon-card">
+                        <div class="weapon-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="weapon-info">
+                            <div class="weapon-name">JAVA DEVELOPMENT</div>
+                            <div class="weapon-desc">Object-oriented programming and applications</div>
+                        </div>
+                        <div class="weapon-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-level="60"></div>
+                            </div>
+                            <div class="progress-text">60% MASTERY</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Computer Vision -->
+                    <div class="weapon-card">
+                        <div class="weapon-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-database"></i>
+                            </div>
+                        </div>
+                        <div class="weapon-info">
+                            <div class="weapon-name">MongoDB</div>
+                            <div class="weapon-desc">Data Base managements</div>
+                        </div>
+                        <div class="weapon-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-level="35"></div>
+                            </div>
+                            <div class="progress-text">35% MASTERY</div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tools -->
+                    <div class="weapon-card">
+                        <div class="weapon-icon">
+                            <div class="icon-circle">
+                                <i class="fas fa-tools"></i>
+                            </div>
+                        </div>
+                        <div class="weapon-info">
+                            <div class="weapon-name">UTILITY TOOLS</div>
+                            <div class="weapon-desc">Git, Docker, Cloud platforms</div>
+                        </div>
+                        <div class="weapon-progress">
+                            <div class="progress-bar">
+                                <div class="progress-fill" data-level="30"></div>
+                            </div>
+                            <div class="progress-text">30% MASTERY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Projects -->
+        <section id="projects" class="section missions">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">COMPLETED <span class="highlight">PROJECTS</span></h2>
+                </div>
+                
+                <div class="missions-grid">
+                    <!-- Project cards will be loaded dynamically -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Certificates - Updated for Slideshow -->
+        <section id="certificates" class="section trophies">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">MY <span class="highlight">CERTIFICATES</span></h2>
+                </div>
+                
+                <div class="certificate-slideshow">
+                    <div class="slideshow-container" id="slideshowContainer">
+                        <!-- Slides will be loaded dynamically -->
+                    </div>
+                    <div class="slideshow-controls">
+                        <button class="slideshow-btn prev-btn" id="prevBtn">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="slideshow-dots" id="slideshowDots">
+                            <!-- Dots will be loaded dynamically -->
+                        </div>
+                        <button class="slideshow-btn next-btn" id="nextBtn">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 6: Signal (Contact) -->
+         
+        <section id="contact" class="section signal">
+            <div class="section-content">
+                <div class="section-header">
+                    <h2 class="section-title">SEND <span class="highlight">MESSAGE</span></h2>
+                </div>
+                
+                <div class="signal-container">
+                    <div class="signal-form">
+                        <div class="form-header">
+                            <div class="form-icon">✉</div>
+                            <div class="form-title">DIRECT MESSAGE</div>
+                        </div>
+                        
+                        <form id="contactForm" class="bat-form">
+                            <div class="form-group">
+                                <label for="sender">YOUR NAME</label>
+                                <div class="input-container">
+                                    <div class="input-icon">👤</div>
+                                    <input type="text" id="sender" placeholder="Enter your name" required>
+                                    <div class="input-line"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="frequency">EMAIL ADDRESS</label>
+                                <div class="input-container">
+                                    <div class="input-icon">@</div>
+                                    <input type="email" id="frequency" placeholder="Your email address" required>
+                                    <div class="input-line"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">MESSAGE TYPE</label>
+                                <div class="input-container">
+                                    <div class="input-icon">🎯</div>
+                                    <select id="subject" required>
+                                        <option value="">Select purpose</option>
+                                        <option value="Project Collaboration">Project Collaboration</option>
+                                        <option value="Job Opportunity">Job Opportunity</option>
+                                        <option value="Freelance Work">Freelance Work</option>
+                                        <option value="Learning & Mentorship">Learning & Mentorship</option>
+                                        <option value="Other Inquiry">Other Inquiry</option>
+                                    </select>
+                                    <div class="input-line"></div>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">YOUR MESSAGE</label>
+                                <div class="input-container">
+                                    <div class="input-icon">✎</div>
+                                    <textarea id="message" placeholder="Type your message here..." rows="5" required></textarea>
+                                    <div class="input-line"></div>
+                                </div>
+                            </div>
+                            
+                            <button type="submit" class="bat-btn primary submit-btn">
+                                <span class="btn-text">SEND MESSAGE</span>
+                                <div class="btn-glow"></div>
+                                <div class="btn-beam"></div>
+                            </button>
+                        </form>
+                    </div>
+                    
+                    <div class="signal-info">
+                        <div class="info-card">
+                            <div class="info-header">
+                            
+                            <div class="info-content">
+                                <div class="protocol-item">
+                                    <div class="proto-icon">⏱</div>
+                                    <div class="proto-text">
+                                        <div class="proto-title">RESPONSE TIME</div>
+                                        <div class="proto-desc">Within 24 hours</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="protocol-item">
+                                    <div class="proto-icon">🔒</div>
+                                    <div class="proto-text">
+                                        <div class="proto-title">SECURITY</div>
+                                        <div class="proto-desc">End-to-end secured</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="protocol-item">
+                                    <div class="proto-icon">📡</div>
+                                    <div class="proto-text">
+                                        <div class="proto-title">CONTACT CHANNELS</div>
+                                        <div class="channels">
+                                            <a href="mailto:mathavanmathav123@gmail.com" class="channel-link">
+                                                <i class="fas fa-envelope"></i> Email
+                                            </a>
+                                            <a href="https://linkedin.com/in/madhavan-s-9b881a31a" class="channel-link" target="_blank">
+                                                <i class="fab fa-linkedin"></i> LinkedIn
+                                            </a>
+                                            <a href="https://github.com/Madhavan322" class="channel-link" target="_blank">
+                                                <i class="fab fa-github"></i> GitHub
+                                            </a>
+                                            <a href="https://www.instagram.com/ig.madhavan_?igsh=MWt1cXljNzMxZXJkcA==" class="channel-link" target="_blank">
+                                                <i class="fab fa-instagram"></i> Instagram
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Direct Contact Option -->
+                        <div class="direct-contact">
+                            <div class="direct-contact-title">DIRECT CONTACT</div>
+                            <div class="direct-buttons">
+                                <button class="direct-btn" onclick="location.href='mailto:mathavanmathav123@gmail.com'">
+                                    <i class="fas fa-paper-plane"></i>
+                                    <span>Email Directly</span>
+                                </button>
+                                <button class="direct-btn" onclick="copyToClipboard('mathavanmathav123@gmail.com')">
+                                    <i class="fas fa-copy"></i>
+                                    <span>Copy Email</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bat-footer">
+        <div class="footer-content">
+            <div class="footer-emblem">
+                <div class="bat-emblem-footer"></div>
+                <div class="footer-title">AI ENGINEER</div>
+            </div>
+            
+            <div class="footer-quote">
+                "Building intelligent systems that learn, adapt, and solve real-world problems."
+            </div>
+            
+            <div class="footer-links">
+                <a href="#home" class="footer-link">HOME</a>
+                <a href="#about" class="footer-link">PROFILE</a>
+                <a href="#skills" class="footer-link">SKILLS</a>
+                <a href="#projects" class="footer-link">PROJECTS</a>
+                <a href="#certificates" class="footer-link">CERTIFICATES</a>
+                <a href="#contact" class="footer-link">CONTACT</a>
+            </div>
+            
+            <div class="footer-copyright">
+                © 2024 MADHAVAN S. ALL RIGHTS RESERVED.<br>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Certificate Viewer -->
+    <div class="cert-viewer" id="certViewer">
+        <div class="viewer-overlay"></div>
+        <div class="viewer-container">
+            <button class="viewer-close" id="viewerClose">✕</button>
+            <div class="viewer-nav">
+                <button class="nav-btn prev" id="viewerPrev"></button>
+                <button class="nav-btn next" id="viewerNext"></button>
+            </div>
+            <div class="viewer-content">
+                <img class="cert-image" id="certImage" src="" alt="Certificate" loading="lazy">
+                <div class="cert-info">
+                    <h3 class="cert-title" id="certTitle"></h3>
+                    <p class="cert-desc" id="certDesc"></p>
+                    <div class="cert-meta">
+                        <span class="cert-date" id="certDate"></span>
+                        <span class="cert-issuer" id="certIssuer"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="viewer-actions">
+                <button class="bat-btn small" id="downloadCert">
+                    <i class="fas fa-download"></i> DOWNLOAD
+                </button>
+                <button class="bat-btn outline small" id="shareCert">
+                    <i class="fas fa-share-alt"></i> SHARE
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mission Terminal -->
+    <div class="mission-terminal" id="missionTerminal">
+        <div class="terminal-header">
+            <div class="terminal-title">AI TERMINAL</div>
+            <div class="terminal-controls">
+                <div class="control minimize">_</div>
+                <div class="control maximize">□</div>
+                <div class="control close" id="terminalClose">✕</div>
+            </div>
+        </div>
+        <div class="terminal-content">
+            <div class="terminal-output" id="terminalOutput">
+                <!-- Terminal content will be added here -->
+            </div>
+            <div class="terminal-input">
+                <span class="prompt">></span>
+                <input type="text" class="terminal-cmd" id="terminalCmd" placeholder="Type command..." autocomplete="off">
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Mobile Navigation Bottom Bar -->
+    <div class="mobile-nav-bottom">
+        <div class="mobile-nav-item" onclick="showSection('home')">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </div>
+        <div class="mobile-nav-item" onclick="showSection('certificates')">
+            <i class="fas fa-certificate"></i>
+            <span>Certs</span>
+        </div>
+        <div class="mobile-nav-item" onclick="showSection('contact')">
+            <i class="fas fa-envelope"></i>
+            <span>Contact</span>
+        </div>
+        <div class="mobile-nav-item" onclick="openMissionTerminal()">
+            <i class="fas fa-terminal"></i>
+            <span>Terminal</span>
+        </div>
+    </div>
+
+    <!-- Smoke Effects -->
+    <div class="smoke-container">
+        <div class="smoke smoke-1"></div>
+        <div class="smoke smoke-2"></div>
+        <div class="smoke smoke-3"></div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div class="toast" id="toast"></div>
+
+    <script src="script.js"></script>
+    <!-- Initialize EmailJS -->
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("xo7pERspFUO2cIo9D"); // Replace with your EmailJS public key
+        })();
+    </script>
+</body>
+</html>

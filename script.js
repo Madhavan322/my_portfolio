@@ -921,15 +921,15 @@ function loadProjects() {
             demo: null,
             icon: "fas fa-hand-pointer"
         },
-       /* {
-            title: "AI-POWERED SPAM CLASSIFIER",
-            description: "Machine learning model that classifies emails as spam or not spam using NLP techniques with 95% accuracy.",
-            technologies: ["Python", "Scikit-learn", "NLP", "Pandas", "Numpy"],
-            github: "https://github.com/Madhavan322",
+       {
+            title: "CGPA-CALCULATOR FOR KNCET-UGR 2020",
+            description: "Using Simple HTML, CSS, and JavaScript to create a user-friendly CGPA calculator tailored for KNCET-UGR 2020 curriculum.",
+            technologies: ["HTML", "CSS", "JavaScript"],
+            github: "https://github.com/Madhavan322/CGPA-Calculater",
             demo: null,
-            icon: "fas fa-envelope"
+            icon: "fas fa-calculator"
         },
-        {
+       /* {
             title: "IMAGE RECOGNITION SYSTEM",
             description: "Deep learning model for image classification using Convolutional Neural Networks on CIFAR-10 dataset.",
             technologies: ["Python", "TensorFlow", "CNN", "Deep Learning"],

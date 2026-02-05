@@ -926,7 +926,7 @@ function loadProjects() {
             description: "Using Simple HTML, CSS, and JavaScript to create a user-friendly CGPA calculator tailored for KNCET-UGR 2020 curriculum.",
             technologies: ["HTML", "CSS", "JavaScript"],
             github: "https://github.com/Madhavan322/CGPA-Calculater",
-            demo: null,
+            demo: "https://madhavan322.github.io/CGPA-Calculater/",
             icon: "fas fa-calculator"
         },
        /* {

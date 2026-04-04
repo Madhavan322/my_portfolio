@@ -944,6 +944,14 @@ function loadProjects() {
            github: "https://github.com/Madhavan322/transport-tracker",
            demo: "https://citybus-tracker-f9ddf.web.app/",
            icon: "fas fa-map-marker-alt"
+        },
+        {
+            title: "ITHUNAMMACINEMA – MOVIE TICKET BOOKING SYSTEM",
+            description: "Developed a web-based movie ticket booking system that allows users to browse movies, select seats, and book tickets online. The system uses React for a dynamic user interface and Supabase as the backend for storing booking data. It provides a simple, user-friendly experience with real-time interaction and efficient data management.",
+            technologies: ["React", "Supabase", "JavaScript", "HTML", "CSS"],
+            github: "https://github.com/Madhavan322/vagapalagalam-",
+            demo: "https://vagapalagalam.vercel.app",
+            icon: "fas fa-film"
         }
     ];
     

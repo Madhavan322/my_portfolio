@@ -929,14 +929,14 @@ function loadProjects() {
             demo: "https://madhavan322.github.io/CGPA-Calculater/",
             icon: "fas fa-calculator"
         },
-       /* {
-            title: "IMAGE RECOGNITION SYSTEM",
-            description: "Deep learning model for image classification using Convolutional Neural Networks on CIFAR-10 dataset.",
-            technologies: ["Python", "TensorFlow", "CNN", "Deep Learning"],
-            github: "https://github.com/Madhavan322",
-            demo: null,
+        {
+            title: "VANGAPALAGALAM-SOCIAL MEDIA PLATFORM",
+            description: "Full-stack social media web application with real-time chat, post sharing, likes, comments, and user interaction features using cloud backend.",
+            technologies: ["React", "Supabase", "JavaScript", "HTML", "CSS"],
+            github: "https://github.com/Madhavan322/vagapalagalam-",
+            demo: "https://vagapalagalam.vercel.app",
             icon: "fas fa-eye"
-        }*/
+        }
     ];
     
     projectsGrid.innerHTML = '';

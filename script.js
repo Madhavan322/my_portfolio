@@ -921,21 +921,21 @@ function loadProjects() {
             demo: null,
             icon: "fas fa-hand-pointer"
         },
-      /* {
+       {
             title: "CGPA-CALCULATOR FOR KNCET-UGR 2020",
             description: "Using Simple HTML, CSS, and JavaScript to create a user-friendly CGPA calculator tailored for KNCET-UGR 2020 curriculum.",
             technologies: ["HTML", "CSS", "JavaScript"],
             github: "https://github.com/Madhavan322/CGPA-Calculater",
             demo: "https://madhavan322.github.io/CGPA-Calculater/",
             icon: "fas fa-calculator"
-        },*/
+        },
         {
             title: "VANGAPALAGALAM-SOCIAL MEDIA PLATFORM",
             description: "Full-stack social media web application with real-time chat, post sharing, likes, comments, and user interaction features using cloud backend.",
             technologies: ["React", "Supabase", "JavaScript", "HTML", "CSS"],
             github: "https://github.com/Madhavan322/vagapalagalam-",
             demo: "https://vagapalagalam.vercel.app",
-            icon: "fas fa-SocialMedia"
+            icon: "fas fa-social-media"
         }
     ];
     

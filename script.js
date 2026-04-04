@@ -935,7 +935,7 @@ function loadProjects() {
             technologies: ["React", "Supabase", "JavaScript", "HTML", "CSS"],
             github: "https://github.com/Madhavan322/vagapalagalam-",
             demo: "https://vagapalagalam.vercel.app",
-            icon: "fas fa-share-alt"
+            icon: "fas fa- users"
         }
     ];
     

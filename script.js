@@ -936,6 +936,14 @@ function loadProjects() {
             github: "https://github.com/Madhavan322/vagapalagalam-",
             demo: "https://vagapalagalam.vercel.app",
             icon: "fas fa-share-alt"
+        },
+        {
+           title: "SMART BUS TRACKING SYSTEM (SOFTWARE-ONLY)",
+           description: "Developed a real-time public transport tracking system using driver smartphones without any dedicated GPS hardware. The system uses Firebase for live data updates and OpenStreetMap with Leaflet.js for map visualization. It also includes ETA prediction when real-time data is unavailable, making it cost-effective and suitable for small cities.",
+           technologies: ["React", "Firebase Realtime DB", "OpenStreetMap", "Leaflet.js", "JavaScript", "HTML", "CSS", "Android"],
+           github: "https://github.com/Madhavan322/transport-tracker",
+           demo: "https://citybus-tracker-f9ddf.web.app/",
+           icon: "fas fa-map-marker-alt"
         }
     ];
     

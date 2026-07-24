@@ -945,14 +945,14 @@ function loadProjects() {
            demo: "https://citybus-tracker-f9ddf.web.app/",
            icon: "fas fa-map-marker-alt"
         },
-        {
-            title: "ITHUNAMMACINEMA – MOVIE TICKET BOOKING SYSTEM",
-            description: "Developed a web-based movie ticket booking system that allows users to browse movies, select seats, and book tickets online. The system uses React for a dynamic user interface and Supabase as the backend for storing booking data. It provides a simple, user-friendly experience with real-time interaction and efficient data management.",
-            technologies: ["React", "Supabase", "JavaScript", "HTML", "CSS"],
-            github: "https://github.com/Madhavan322/IthuNammaCinema",
-            demo: "https://ithu-namma-cinema.vercel.app/",
-            icon: "fas fa-film"
-        },
+        // {
+        //     title: "ITHUNAMMACINEMA – MOVIE TICKET BOOKING SYSTEM",
+        //     description: "Developed a web-based movie ticket booking system that allows users to browse movies, select seats, and book tickets online. The system uses React for a dynamic user interface and Supabase as the backend for storing booking data. It provides a simple, user-friendly experience with real-time interaction and efficient data management.",
+        //     technologies: ["React", "Supabase", "JavaScript", "HTML", "CSS"],
+        //     github: "https://github.com/Madhavan322/IthuNammaCinema",
+        //     demo: "https://ithu-namma-cinema.vercel.app/",
+        //     icon: "fas fa-film"
+        // },
             {
              title: "A TO Z MARKET – E-COMMERCE SHOPPING PLATFORM",
              description: "Developed a modern e-commerce web application that enables users to browse products by category, search for items, view detailed product information, manage their shopping cart, and complete purchases through an intuitive interface. The application features a responsive design, dynamic product filtering, and seamless navigation to provide a fast and engaging online shopping experience.",

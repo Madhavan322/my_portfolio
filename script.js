@@ -952,7 +952,15 @@ function loadProjects() {
             github: "https://github.com/Madhavan322/IthuNammaCinema",
             demo: "https://ithu-namma-cinema.vercel.app/",
             icon: "fas fa-film"
-        }
+        },
+            {
+             title: "A TO Z MARKET – E-COMMERCE SHOPPING PLATFORM",
+             description: "Developed a modern e-commerce web application that enables users to browse products by category, search for items, view detailed product information, manage their shopping cart, and complete purchases through an intuitive interface. The application features a responsive design, dynamic product filtering, and seamless navigation to provide a fast and engaging online shopping experience.",
+             technologies: ["React", "JavaScript", "HTML", "CSS", "Vercel"],
+             github: "https://github.com/Madhavan322/A-To-Z-Market",
+             demo: "https://a-to-z-market.vercel.app/",
+             icon: "fas fa-shopping-cart"
+}
     ];
     
     projectsGrid.innerHTML = '';
